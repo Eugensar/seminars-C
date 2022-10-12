@@ -61,7 +61,5 @@ int[,] spiralArray(int dimensionOfArray)
 
 Console.WriteLine("ВВедите размерность массива");
 int dimensionOfArray = Convert.ToInt32(Console.ReadLine());
-
-spiralArray(dimensionOfArray);
 print2DArray(spiralArray(dimensionOfArray));
 
